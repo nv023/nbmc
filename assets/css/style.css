@@ -291,7 +291,6 @@ Top Header Area Style
 .tob-header-area {
   padding-top: 6px;
   padding-bottom: 6px;
-  background-color: #0cb8b6;
   position: relative;
 }
 .tob-header-area::before {
