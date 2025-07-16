@@ -996,12 +996,12 @@ Banner Area Style
   padding-bottom: 200px;
 }
 .slider-item.bg-2 {
-  background-image: url(../images/banner/slider_4.jpg);
+  background-image: url(../images/banner/slider_5.png);
  
 }
 
 .slider-item.bg-3 {
-  background-image: url(../images/banner/BOYS-HOSTEL.jpg);
+  background-image: url(../images/banner/slider_5.png);
 }
 
 .banner-content {
@@ -4538,4 +4538,61 @@ Go To Top Style
 } 
 .header-logo-top{
   padding: 15px 0px;
+}
+.single-features-card h3{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.icon img{
+  border-radius: 5px;
+}
+.single-features-card{
+  border-radius: 10px;
+}
+.about_icon img{
+  background-color: #fff;
+  border-radius: 50%;
+}
+.about_btn{
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.about_btn:hover{
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.single-doctor-card.style .doctor-card-content{
+  border-radius: 0px 0px 10px 10px;
+}
+.quick-link ul li i{
+  top: 4px;
+}
+.principal_message_text{
+  text-align: center;
+}
+.choose-img{
+  padding-left: 50px;
+}
+.choose-img img{
+  border-radius: 10px 10px;
+}
+.list_pr ul{
+  margin: 0px;
+  padding: 0px;
+}
+.list_pr ul li{
+  list-style: none;
+}
+.list_pr ul li span{
+  font-weight: 600;
+  margin-bottom: 0px !important;
+}
+.pri_bottom{
+  margin: 0px !important;
+  margin-bottom: 15px !important;
+}
+.choose-content .choose-title p{
+  margin-bottom: 15px !important;
 }
