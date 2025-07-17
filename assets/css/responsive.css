@@ -2372,6 +2372,9 @@
   .coming-soon-area .coming-soon .default-btn {
     padding: 15px 25px;
   }
+  .dropdown_menu_right{
+  left: -80px !important;
+}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .banner-content h1 {
@@ -2464,6 +2467,9 @@
   .single-services-card h3 {
     font-size: 18px;
   }
+  .dropdown_menu_right{
+  left: -55px !important;
+}
 }
 /* Mobile and iPad Navbar */
 @media only screen and (max-width: 991px) {

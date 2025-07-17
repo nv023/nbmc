@@ -4596,3 +4596,116 @@ Go To Top Style
 .choose-content .choose-title p{
   margin-bottom: 15px !important;
 }
+
+/* header logo section */
+.header_logo_left img{
+  width: 100%;
+}
+.heder-right-content_btn ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+.heder-right-content_btn ul li{
+  padding: 10px 30px;
+  background-color: #0cb8b6;
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.tob-header-area{
+  background-color: #efefef;
+}
+.navbar-area{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #efefef;
+
+}
+.desktop-nav .navbar .navbar-nav .nav-item a{
+  font-size: 15px;
+ 
+}
+.header_logo_top{
+  padding: 20px 0px;
+}
+.desktop-nav .navbar .navbar-nav .nav-item{
+  padding: 15px 0px;
+}
+.dropdown_menu_committees{
+  height: 70vh;
+  overflow-y: scroll;
+  width: 350px !important;
+}
+.header_right_con ul{
+  text-align: right;
+}
+.header_right_con ul li i{
+  color: #000;
+}
+.header_right_con ul li p{
+  color: #000;
+  font-size: 15px;
+}
+.courses_titile h3{
+  font-size: 17px;
+}
+.research_level_on ul{
+  margin: 0px;
+  padding: 0px;
+}
+.research_level_on ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+  background-color: #0cb8b541;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  color: #000;
+}
+.research_level_on {
+  text-align: left !important;
+}
+.research_level_on h2{
+  font-size: 25px !important;
+}
+.examinitation_image img{
+  width: 100%;
+  border-radius: 5px;
+}
+.form-control{
+  font-size: 15px;
+}
+.metrial_image img{
+  width: 100%;
+}
+.bio_medii{
+  text-align: center;
+  padding: 20px 0px !important;
+}
+.internal_cap_office{
+  text-align: left;
+}
+.internal_cap_office_list ul{
+  margin: 0px;
+  padding: 0px;
+}
+.internal_cap_office_list ul li{
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.internal_cap_office_list ul li i{
+  color: #0a6b69;
+}
+
+
+@media (max-width: 992px) {
+  .header_logo_top{
+    display: none;
+  }
+}
