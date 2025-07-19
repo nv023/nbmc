@@ -2541,7 +2541,7 @@
   .mobile-responsive-nav .mobile-responsive-menu.mean-container .navbar-nav {
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     margin-top: 0 !important;
-    max-height: 50vh;
+    max-height: 80vh;
     overflow-y: scroll;
     /* width */
     /* Track */

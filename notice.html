@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- ===Data table cdn=== -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/2.3.2/css/dataTables.bootstrap5.css">
     <!--=== Bootstrap Min CSS ==-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--=== MeanMenu CSS ===-->
@@ -72,11 +74,11 @@
                         <ul>
                             <li>
                                 <i class="ri-map-pin-2-line"></i>
-                                                <p> Sushruta Nagar, Dist Darjeeling. -734012, West Bengal</p>
+                                <p> Sushruta Nagar, Dist Darjeeling. -734012, West Bengal</p>
                             </li>
-                            
+
                         </ul>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -84,14 +86,14 @@
     <!--End Top Header-->
 
     <!-- header logo  -->
-     <div class="header_logo_top">
+    <div class="header_logo_top">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-4">
                     <div class="header_logo_left">
                         <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/logo-main-ht.png" class="main-logo" alt="logo">
-                    </a>
+                            <img src="assets/images/logo-main-ht.png" class="main-logo" alt="logo">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -112,9 +114,9 @@
                 </div>
             </div>
         </div>
-     </div>
+    </div>
     <!-- Start Navbar Area -->
-   <div class="navbar-area nav-bg-1">
+    <div class="navbar-area nav-bg-1">
         <div class="mobile-responsive-nav">
             <div class="container">
                 <div class="mobile-responsive-menu">
@@ -431,10 +433,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="page-banner-content">
-                        <h1>Principals Message</h1>
+                        <h1>Notice Board</h1>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li>Principals Message</li>
+                            <li>Notice Board</li>
                         </ul>
                     </div>
                 </div>
@@ -454,52 +456,95 @@
         <div class="container-fluid">
             <div class="choose-us-bg bg-color1 ptb-100">
                 <div class="row align-items-center">
-                    <div class="col-lg-12 mb-4">
+                    <div class="col-lg-12 mb-2">
                         <div class="choose-content pl-20" data-aos="fade-left" data-aos-easing="ease-in-sine"
                             data-aos-duration="1300">
-                            <div class="choose-title principal_message_text">
-                                <span>Principal message</span>
-                                <h2>Message from Prof. Dr. Sajay Kumar Mallick</h2>
+                            <div class="choose-title principal_message_text ">
+                                <span>Latest</span>
+                                <h2>Notice</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="choose-img " data-aos="fade-right" data-aos-easing="ease-in-sine"
-                            data-aos-duration="1300">
-                            <img src="assets/images/about/pr-1.png" alt="Image">
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="choose-content pl-20" data-aos="fade-left" data-aos-easing="ease-in-sine"
                             data-aos-duration="1300">
-                            <div class="choose-title">
-                                <p>Originally envisioned by Dr. B. C. Roy, North Bengal Medical College and Hospital was
-                                    established in 1968 as the First Medical College of North Bengal. The planning was
-                                    executed by Ajit Kumar Panja, the then state health minister. Prof. Ajit Kr.
-                                    Duttagupta joined as the first official principal of the college which was then
-                                    known as North Bengal University Medical College. NBUMC was rechristened in August
-                                    1978 to North Bengal Medical College & Hospital and the administrative control went
-                                    from North Bengal University to Govt. of West Bengal.</p>
-                                <p>The premedical classes started on 6.11.67 in a makeshift arrangement at Jackson
-                                    Medical School, Jalpaiguri. 2nd to 6th batch of students undertook their premedical
-                                    course at Raigunj University College. 7th batch onwards, the students started their
-                                    premedical course at NBMC campus, Sushrutanagar, their own place. Classes for 1st
-                                    year MBBS course for 1st batch started on 18.11.68 in NBU campus. MBBS classes
-                                    started in Sushrutanagar, the present site of NBMC in 1972. The first 5 batches had
-                                    to migrate to SSKM hospital for their clinical lessons after passing 2nd prof. First
-                                    2 batches completed internship and house-man ship there. The college got its
-                                    recognition from the Medical Council of India in 1978, when the first batch of
-                                    students got the coveted registration number.</p>
-                                <p class="pri_bottom">Thank you for your continued trust and support.</p>
-                                <div class="list_pr">
-                                    <ul>
-                                        <li>Warm regards,</li>
-                                        <li><span>Dr. Sanjay Kumar Mallick</span></li>
-                                        <li>Medical Superintendent cum Principal</li>
-                                        <li>North Bengal Medical College & Hospital</li>
-                                    </ul>
-                                </div>
+                            <div class="choose-title courses_titile">
+                                <table id="example" class="table table-bordered">
+                                    <thead class="table table-info table_row_main">
+                                        <tr>
+                                            <th>Title</th>
+                                            <th>Update Date</th>
+                                            <th>Download</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>ADVERTISEMENT FOR THE POST OF S.R.</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Interview to the post of Project Technical Support-II for the Department of Pathology</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Interview to the post of Project Technical Support-II for the Department of Pathology</td>
+                                           
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+
+                                         <tr>
+                                            <td>Sealed Quotations for Testing Kits – NBMC, Darjeeling</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Publishing letter format with sign 3rd call</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Recruitment Advertisement for Research Assistant for ILI-SARI project 2025</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Recruitment Advertisement for Research Scientist for VRDL 2025</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Notice for foundation course roster for phase 1 MBBS students(batch 2024-2025)</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+
+                                         <tr>
+                                            <td>Notice for the Combined Class Schedule for Phase I MBBS students (2024-2025)</td>
+                                            
+                                            <td>February 24, 2025</td>
+                                            <td><a href="#" class="btn_download">Download</a></td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
                             </div>
                         </div>
                     </div>
@@ -508,22 +553,6 @@
         </div>
     </div>
     <!--End About area-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -709,6 +738,10 @@
     <script src="assets/js/contact-form-script.js"></script>
     <!--=== AjaxChimp JS ===-->
     <script src="assets/js/ajaxchimp.min.js"></script>
+    <!-- ===Data table js=== -->
+    <script src="//cdn.datatables.net/2.3.2/js/dataTables.js"></script>
+    <script src="//cdn.datatables.net/2.3.2/js/dataTables.bootstrap5.js"></script>
+    <script>new DataTable('#example');</script>
     <!--=== Custom JS ===-->
     <script src="assets/js/custom.js"></script>
 </body>

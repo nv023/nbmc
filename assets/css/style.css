@@ -4484,32 +4484,43 @@ Go To Top Style
 }
 
 /* start notice board  */
-.notice_board_mainBox ul{
-  margin: 0px;
-  padding: 0px;
-  
+
+.notice_board_mainBox ul
+ {
+    margin: 0px;
+    padding: 0px;
 }
-.notice_board_mainBox ul li{
-  list-style: none;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #efefef;
-  padding-bottom: 10px;
+.notice_board_mainBox ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
 }
-.notice_board_mainBox ul li a{
-  display: block;
-  width: 100%;
+.notice_board_mainBox ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
 }
-.footer_btn_box_card{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: transparent;
-  border-top: transparent;
+.date_box{
+   height: 40px;
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid #0c968a;
+    margin-right: 10px;
+    color: #000;
+    font-size: 14px;
 }
+.notice_content_main{
+    display: flex;
+}
+
 .btn_view_notice{
-  border-radius: 3px;
+    border-radius: 3px;
     background: #0cb8b6;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     height: 36px;
     line-height: 36px;
@@ -4517,8 +4528,14 @@ Go To Top Style
     display: inline-block;
 }
 .btn_view_notice:hover{
-  color: #fff;
    background: #0cb8b6;
+   color: #fff;
+}
+.footer_btn_box_card{
+      padding-top: 15px;
+    padding-bottom: 15px;
+    background: transparent;
+    border-top: transparent;
 }
 /* end notice board  */
 
@@ -4748,7 +4765,7 @@ Go To Top Style
 }
 
 .gallery-section .gallery-box {
-	background: #fff;
+
 	padding: 15px;
 	display: grid;
 	grid-template-columns: repeat(4, auto);
@@ -4828,8 +4845,55 @@ Go To Top Style
 .department_btn{
   text-align: center;
 }
+.single-services-card{
+  padding: 10px;
+  border-radius: 10px ;
+}
+.single-services-card img{
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+/* start faculty page  */
+.faculty_title h3{
+  margin: 0px;
+  font-size: 17px !important;
+  text-align: center;
+}
+.faculty_title p{
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+.faculty_detial ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.faculty_detial ul li{
+  list-style: none;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.card_services{
+  padding: 30px;
+}
+.senior_residents ul{
+  margin: 0px;
+  padding: 0px;
+}
+.senior_residents ul li{
+  list-style: none;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.senior_residents ul li i{
+  font-size: 16px;
+  color: #0c968a;
+}
 
 
+/* end faculty page */
 
 
 @media (max-width: 991px) {
