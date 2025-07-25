@@ -1904,6 +1904,10 @@
   }
   .heder-left-content ul li p {
     font-size: 13px;
+    color: #fff
+  }
+  .header_right_con ul li i{
+    color: #fff;
   }
   .heder-right-content ul li .language {
     margin-right: 10px;
@@ -2599,4 +2603,13 @@
     width: 100%;
     margin-right: 10px;
   }
+   .heder-left-content ul li p {
+    font-size: 13px;
+    color: #fff
+  }
+  .header_right_con ul li i{
+    color: #fff;
+  }
+  .header_right_con ul{
+    text-align: center;
 }/*# sourceMappingURL=responsive.css.map */
